@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#d0dbdb,#5ea4b6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16pt;
+    color: black;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: table;
+
+}
+
+#encabezado{
+    width: 100%;
+    height: 450px;
+    display: table;
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#cuerpo{
+    width: 90%; 
+    display: table;
+    padding: 5% 5% 5% 5%;
+    color: black;
+}
+#nav{
+    width: 100%;
+    display: table;
+    background-color: #1c4c6c;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav ul li{
+    list-style: none;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    padding: 15px 30px;
+    display: table;
+    color: white;
+}
+
+#nav ul li a:hover{
+    background-color: #8dc7d5;
+    color: aliceblue;
+    transition: all .3s;
+}
+
+.activa{
+    background-color:#64a4b0; 
+    color:white;
+}
+
+#footer{
+    width: 100%;
+    height:75px;
+    text-align: center;
+    padding-top: 3%;
+    background-color: #1c4c6c;
+    color: white;
+}
+
+p{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+h2{
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+h3{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.hori{
+    display: flex;
+}
+
+.hori img{
+    width: 300px;
+    height: 300px;
+}
+
+#origen{
+    display:table;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+
+.principal{
+    display: table;
+    margin: auto;
+    width: 650px;
+    height: 550px;
+}
+
+.cancion{
+    display: flex;
+    margin-top: 40px;
+}
+
+.cancion li{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+.cancion img{
+    width: 300px;
+    height: 300px;
+}
+
+.cancion li a{
+    color: blue;
+}
+
+.hor1, .hor2, .hor3{
+    display:flex;
+}
+
+.miembro h3{
+    margin-top: 40px;
+}
+
+.hor3 img{
+    width: 300px;
+    height: 300px;
+    margin-right: 4%;
+    margin-bottom: 40px;
+}
+
+.hor1 img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.hor2 img{
+    width: 350px;
+    height: 320px;
+    margin-right: 5%;
+    margin-bottom: 40px;
+}
+
+img{
+    border-radius: 5%;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #1c4c6c;
+    color:white;
+    border-radius: 10%;
+    border-color: black;
+}
+
+button:hover{
+    background-color: #8dc7d5;
+    color:black;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 25px;
+    padding-left: 0.5%;
+    border-radius: 5%;
+}
+
+input[type=email]{
+    width: 300px;
+    height: 25px;
+    padding-left: 0.5%;
+    border-radius: 5%;
+}
+
+textarea{
+    width: 300px;
+    height: 250px;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    border-radius: 3%;
+}
+
+#contacto{
+    display: table;
+    margin: 0 auto;
+    text-align: center; 
+    width: 60%;
+}
+
+#contacto h2{
+    padding: 10px;
+}
